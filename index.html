@@ -4,12 +4,26 @@
 <head>
     <meta charset="UTF - 8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+<!-- Below is the CSS Way 1 - Style Tag
+    <style>
+        body{
+            color: red;
+        }
+    </style>
+-->
+
+<!--CSS Way 3: external link-->
+    <link href = "styles.css" rel = "stylesheet" />
+
+
     <title>Component Library</title>
 </head>
 
 <body>
-    <h1>Aarush Sharma's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    <!--<h1 style = "color:red">Aarush Sharma's component library</h1> -- This is CSS Way 2 --> 
+    <h1 id = "lib-header">Aarush Sharma's component library</h1> <!--This way, we create an attribute here and style it in styles.css-->
+    <p class = "para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
     </p>
     <hr>
     <h2>@typography</h2>
@@ -17,14 +31,14 @@
     <h1>This is biggest heading</h1>
     <h2>This is second biggest heading.</h2>
     <p>This is how a normal text looks.</p>
-    <small>This is a relatively smaller text.</small>
+    <small class = "para">This is a relatively smaller text.</small> <!--This is another way of styling by creating class and styling it in styles.css-->
 
     <hr>
 
     <h2>@container</h2>
     <!--It holds data and acts as a placeholder.-->
     <h3>@fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
+    <div class = "para">This is a fluid container and it will go till the end of the page.</div> 
 
     <h3>@center container</h3>
     <div>This is a center container and it will go till specified width.</div>
