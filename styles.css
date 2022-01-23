@@ -15,10 +15,10 @@ body {
 
 body {
     font-family: "Montserrat", sans-serif;
-    margin: 0px;
+    margin: 0px auto;
     max-width: 85%;
     width: 100%;
-  }
+}
 
 hr {
     margin: 2rem 0rem;
@@ -40,8 +40,11 @@ hr {
 /**links **/
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .primary-link {
@@ -122,8 +125,7 @@ hr {
 
 /** sections **/
 
-.section
-{
+.section {
     padding: 2rem;
 }
 
@@ -131,15 +133,13 @@ hr {
     text-align: center;
 }
 
-.ow 
-{
+.ow {
     background-color: var(--off-white);
 }
 
 /** footer **/
 
-.footer 
-{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -148,12 +148,17 @@ hr {
 
 }
 
-.footer .link
+.footer .link 
 {
     color: white;
 }
 
-footer ul
+.footer .footer-header
 {
+    font-weight: bold;
+    font-size: large;
+}
+
+footer ul {
     padding-inline-start: 0px;
 }

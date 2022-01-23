@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="eg">
+
+<head>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+    <!-- Below is the CSS Way 1 - Style Tag
+    <style>
+        body{
+            color: red;
+        }
+    </style>
+-->
+
+    <!--CSS Way 3: external link-->
+    <link href="/styles.css" rel="stylesheet" />
+
+
+    <title>Component Library</title>
+</head>
+
+<body>
+    <!--<h1 style = "color:red">Aarush Sharma's component library</h1> -- This is CSS Way 2 -->
+    <h1>component library</h1>
+    <!--This way, we create an attribute here and style it in styles.css-->
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+        This is a component library created by me to better design each element.
+
+    </p>
+    <hr>
+    <h2>@typography</h2>
+    <!--How to write things-->
+    <h1>This is biggest heading</h1>
+    <h2>This is second biggest heading.</h2>
+    <p>This is how a <strong>bold text looks</strong> and a normal text looks.</p>
+    <small>This is a relatively smaller text.</small>
+    <!--This is another way of styling by creating class and styling it in styles.css-->
+
+    <hr>
+
+    <h2>@container</h2>
+    <!--It holds data and acts as a placeholder.-->
+    <h3>@fluid container</h3>
+    <div class="container container-fluid">This is a fluid container and it will go till the end of the page.</div>
+
+    <h3>@center container</h3>
+    <div class="container container-center">This is a center container and it will go till specified width.</div>
+
+    <hr>
+    <h2>@links</h2>
+
+    <a class="link primary-link" href="/">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
+
+    <hr>
+    <h2>@lists</h2>
+    <h3>Unordered List</h3>
+    <p>This list will not have bullet.</p>
+
+    <ul class=list-non-bullet>
+        <li">Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered Inline List</h3>
+    <ul class=list-non-bullet>
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline" s>Inline Item Three</li>
+    </ul>
+    <h3>Reverse Order List</h3>
+    <ol reversed>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg">
+        <h1 class="hero-heading">aarush sharma the <span class="heading-inverted"> web developer</span></h1>
+    </header>
+    <hr>
+    <h2>@sections</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>MDN says : If you are a complete beginner, web development can be challenging — we will hold your hand
+                and provide enough detail for you to feel comfortable and learn the topics properly. You should feel at
+                home whether you are a student learning web development (on your own or as part of a class), a teacher
+                looking for class materials, a hobbyist, or someone who just wants to understand more about how web
+                technologies work.</p>
+        </div>
+    </section>
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>MDN says : If you are a complete beginner, web development can be challenging — we will hold your hand
+                and provide enough detail for you to feel comfortable and learn the topics properly. You should feel at
+                home whether you are a student learning web development (on your own or as part of a class), a teacher
+                looking for class materials, a hobbyist, or someone who just wants to understand more about how web
+                technologies work.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">Small heading inside footer</div>
+
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Social One</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social Two</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Social Three</a>
+            </li>
+        </ul>
+
+</body>
+
+</html>
