@@ -9,6 +9,7 @@ body {
 :root {
     --primary-color: #7c3aed;
     --dark-gray: #6b7280;
+    --off-white: #f3f4f6;
 }
 
 
@@ -70,8 +71,7 @@ hr {
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-pills 
-{
+.navigation .nav-pills {
     text-align: right;
 }
 
@@ -90,28 +90,40 @@ hr {
     font-weight: bold;
 }
 
-/** header **/ 
+/** header **/
 
-.hero 
-{
+.hero {
     padding: 3rem 0rem;
 }
 
-.hero .hero-img
-{
-    max-width : 550px;
+.hero .hero-img {
+    max-width: 550px;
     display: block;
     margin: auto;
 
 }
 
-.hero .hero-heading
-{
+.hero .hero-heading {
     text-align: center;
     color: var(--dark-gray);
 }
 
-.hero .hero-heading .heading-inverted
-{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/** sections **/
+
+.section
+{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow 
+{
+    background-color: var(--off-white);
 }
