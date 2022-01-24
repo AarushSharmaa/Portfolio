@@ -24,6 +24,13 @@ hr {
     margin: 2rem 0rem;
 }
 
+
+/**spaces **/
+.margin-md
+{
+    padding: 2rem;
+}
+
 /** containers **/
 
 .container {
@@ -43,8 +50,8 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /**margin-top: 1rem;
+    margin-bottom: 1rem;**/
 }
 
 .primary-link {
@@ -107,6 +114,7 @@ hr {
 }
 
 .hero .hero-img {
+    padding-top: 5rem;
     max-width: 550px;
     display: block;
     margin: auto;
