@@ -2,9 +2,16 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    max-width: 100%;
+    width: 100%;
 }
 
 /**This is how you comment in css **/
+
+hr {
+    margin: 2rem 0rem;
+}
 
 :root {
     --primary-color: #4B0082;
@@ -13,34 +20,22 @@ body {
 }
 
 
-body {
-    font-family: "Montserrat", sans-serif;
-    margin: 0px auto;
-    max-width: 85%;
-    width: 100%;
-}
-
-hr {
-    margin: 2rem 0rem;
-}
-
-
 /**spaces **/
 .margin-md
 {
-    padding: 2rem;
+    margin: 2rem;
 }
 
 /** containers **/
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 
 }
 
 .container-center {
     max-width: 600px;
+    width: 100%;
     margin: auto;
 }
 
@@ -50,27 +45,35 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 2rem;
     /**margin-top: 1rem;
     margin-bottom: 1rem;**/
 }
 
 .primary-link {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
+    margin: 1rem auto;
+    padding: 0.6rem 1.2rem;
+    max-width: 140px;
+    
 }
 
 .secondary-link {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    max-width: 140px;
+    margin: 1rem auto;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
-    color: white;
+    color: var(--primary-color);
 }
 
 /**lists **/
 
 .list-non-bullet {
     list-style: none;
+    
 }
 
 .list-item-inline {
@@ -85,7 +88,10 @@ hr {
     color: white;
     padding: 1rem;
     /** this is text color **/
-    border-bottom-left-radius: 1rem;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+
 }
 
 .navigation .nav-pills {
@@ -110,12 +116,13 @@ hr {
 /** header **/
 
 .hero {
-    padding: 3rem 0rem;
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
-    padding-top: 5rem;
-    max-width: 550px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 
