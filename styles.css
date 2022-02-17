@@ -10,7 +10,7 @@ body {
 /**This is how you comment in css **/
 
 hr {
-    margin: 2rem 0rem;
+    margin: 2rem 1rem;
 }
 
 :root {
@@ -37,6 +37,7 @@ hr {
     max-width: 600px;
     width: 100%;
     margin: auto;
+    font-weight: lighter;
 }
 
 /**links **/
@@ -91,6 +92,7 @@ hr {
     max-width: 100%;
     width: 100%;
     margin: auto;
+    border-radius: 20rem;
 
 }
 
@@ -159,7 +161,7 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-radius: 2rem;
 
 }
 
@@ -172,6 +174,7 @@ hr {
 {
     font-weight: bold;
     font-size: large;
+    color: var(--off-white);
 }
 
 footer ul {
