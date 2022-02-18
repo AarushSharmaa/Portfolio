@@ -13,6 +13,13 @@ hr {
     margin: 2rem 1rem;
 }
 
+.about{
+    color: var(--dark-gray);
+    font-style: italic;
+    font-weight: 900;
+
+}
+
 :root {
     --primary-color: #4B0082;
     --dark-gray: #6b7280;
