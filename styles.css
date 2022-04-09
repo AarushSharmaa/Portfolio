@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     max-width: 100%;
-    width: 100%;
+    width: 100%; 
+}
+
+@media(max-width : 600px) {
+    body {
+        position: absolute;
+    }
+
+    .link {
+        max-width: 50%;
+        width: 100%;
+    }
 }
 
 /**This is how you comment in css **/
@@ -185,3 +198,4 @@ hr {
 footer ul {
     padding-inline-start: 0px;
 }
+
