@@ -1,24 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-
-
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     max-width: 100%;
-    width: 100%; 
+    width: 100%;
 }
 
-@media(max-width : 600px) {
+@media(max-width: 600px) {
     body {
         position: absolute;
     }
-
     .link {
         max-width: 50%;
         width: 100%;
     }
 }
+
 
 /**This is how you comment in css **/
 
@@ -26,31 +23,30 @@ hr {
     margin: 2rem 1rem;
 }
 
-.about{
+.about {
     color: var(--dark-gray);
     font-style: italic;
     font-weight: 900;
-
 }
 
 :root {
-    --primary-color: #4B0082;
+    --primary-color: #85dcb8;
     --dark-gray: #6b7280;
     --off-white: #f3f4f6;
 }
 
 
 /**spaces **/
-.margin-md
-{
+
+.margin-md {
     margin: 2rem;
 }
+
 
 /** containers **/
 
 .container {
     padding: 0rem 1rem;
-
 }
 
 .container-center {
@@ -59,6 +55,7 @@ hr {
     margin: auto;
     font-weight: lighter;
 }
+
 
 /**links **/
 
@@ -78,7 +75,6 @@ hr {
     margin: 1rem auto;
     padding: 0.6rem 1.2rem;
     max-width: 140px;
-    
 }
 
 .secondary-link {
@@ -90,17 +86,18 @@ hr {
     color: var(--primary-color);
 }
 
+
 /**lists **/
 
 .list-non-bullet {
     list-style: none;
-    
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
 
 /** navigation **/
 
@@ -112,7 +109,6 @@ hr {
     max-width: 100%;
     width: 100%;
     margin: auto;
-
 }
 
 .navigation .nav-pills {
@@ -127,12 +123,12 @@ hr {
 .navigation .link {
     color: white;
     font-size: medium;
-
 }
 
 .navigation .link-active {
     font-weight: bold;
 }
+
 
 /** header **/
 
@@ -146,7 +142,6 @@ hr {
     width: 550px;
     display: block;
     margin: auto;
-
 }
 
 .hero .hero-heading {
@@ -158,6 +153,7 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
 
 /** sections **/
 
@@ -173,6 +169,7 @@ hr {
     background-color: var(--off-white);
 }
 
+
 /** footer **/
 
 .footer {
@@ -180,16 +177,13 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-
 }
 
-.footer .link 
-{
+.footer .link {
     color: white;
 }
 
-.footer .footer-header
-{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
     color: var(--off-white);
@@ -198,4 +192,3 @@ hr {
 footer ul {
     padding-inline-start: 0px;
 }
-
